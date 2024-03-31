@@ -29,25 +29,27 @@ export default function Navigation() {
           </div> 
         </nav>
         <button onClick={() => setOpenMenu((prev) => !prev)} className={openMenu ? styles.toggle : styles.humberger_btn}>
-          <span />
-          <span />
-          <span />
-        </button>
-        {
-          openMenu && (
-            <div className={styles.mobileNavigation}>
-              <nav>
-                <li>Find Jobs</li>
-                <li>Employers</li>
-                <li>Pricing</li>
-                <li>Blog</li>
-                <li>Contact</li>
-                <li>Pages</li>
-              </nav>
-            </div>
-          )
-        }
+            <span />
+            <span />
+            <span />
+          </button>
       </div>
+      {
+        openMenu && (
+          <div className={styles.mobileNavigation}>
+            <div>Find Jobs</div>
+            <div>Employers</div>
+            <div>Pricing</div>
+            <div>Blog</div>
+            <div>Contact</div>
+            <div>Pages</div>
+            <div>
+              <Link href={'/login'}>Login</Link>
+              <Link className={styles.signup_btn} href={'/register'}>Post a Job</Link>
+            </div>
+          </div>
+        )
+      }
     </header>
   )
 }

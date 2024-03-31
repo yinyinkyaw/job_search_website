@@ -112,27 +112,32 @@ export const toggle = css `
 `;
 
 export const mobileNavigation = css `
-    width: 100vw;
-    height: 100vh;
-    overflow: hidden;
-    z-index: 1;
-    background-color: var(--color-gray-500);
-    color: white;
-    position: fixed;
-    inset: 0;
-
-    & > nav {
-        height: 100%;
-        list-style-type: none;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        gap: 2rem;
-        font-size: 1.6rem;
-    }
+    color: #000;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 2rem;
+    font-size: 1.6rem;
+    padding: 1rem 2rem;
 
     @media only screen and (min-width: 1024px) {
         display: none;
+    }
+
+    & > div:last-of-type {
+        display: flex;
+        gap: 1rem;
+
+        a {
+            border-radius: 35px;
+            margin: 0;
+            padding: .6rem 1.8rem;
+            border: 1px solid #000;
+            text-decoration: none;
+            color: #000;
+            font-weight: 500;
+            margin-right: 1rem;
+        }
     }
 `;
