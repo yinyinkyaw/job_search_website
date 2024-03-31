@@ -8,10 +8,23 @@ export const navigaiton_container = css `
     max-width: 1280px;
     margin-inline: auto;
     width: 100%;
+
+    @media only screen and (max-width: 1024px) {
+        & > nav {
+            display: none;
+        }
+    }
 `;
 
 export const navigationLinks = css `
-    display: none;
+    list-style-type: none;
+    display: flex;
+    gap: 2.5rem;
+    font-size: 1.6rem;
+    align-items: center;
+    font-weight: 500;
+    color: var(--color-gray-900);
+    text-decoration: none;
 
     & > li:hover {
         color: var(--color-green-500);
@@ -29,15 +42,10 @@ export const navigationLinks = css `
         margin-right: 1rem;
     }
 
-    @media only screen and (min-width: 1024px) {
-        list-style-type: none;
-        display: flex;
-        gap: 2.5rem;
-        font-size: 1.6rem;
-        align-items: center;
-        font-weight: 500;
-        color: var(--color-gray-900);
-        text-decoration: none;
+    @media only screen and (max-width: 1024px) {
+        flex-direction: column;
+        align-items: flex-start;
+        transition: all 3s ease-in-out;
     }
 `;
 

@@ -37,12 +37,14 @@ export default function Navigation() {
       {
         openMenu && (
           <div className={styles.mobileNavigation}>
-            <div>Find Jobs</div>
-            <div>Employers</div>
-            <div>Pricing</div>
-            <div>Blog</div>
-            <div>Contact</div>
-            <div>Pages</div>
+            <nav className={styles.navigationLinks}>
+              <li>Find Jobs</li>
+              <li>Employers</li>
+              <li>Pricing</li>
+              <li>Blog</li>
+              <li>Contact</li>
+              <li>Pages</li>
+            </nav>
             <div>
               <Link href={'/login'}>Login</Link>
               <Link className={styles.signup_btn} href={'/register'}>Post a Job</Link>
