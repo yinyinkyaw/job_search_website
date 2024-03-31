@@ -24,7 +24,7 @@ export default function Navigation() {
           <li>Contact</li>
           <li>Pages</li>
           <div>
-            <Link href={'/login'}>Login</Link>
+            <Link href={'/login'} className='login_btn'>Login</Link>
             <Link className={styles.signup_btn} href={'/register'}>Post a Job</Link>
           </div> 
         </nav>

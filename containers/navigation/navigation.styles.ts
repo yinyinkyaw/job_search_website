@@ -35,11 +35,19 @@ export const navigationLinks = css `
         border-radius: 35px;
         margin: 0;
         padding: 1rem 1.8rem;
-        border: 1px solid #000;
+        border: 1px solid transparent;
         text-decoration: none;
         color: #000;
         font-weight: 500;
         margin-right: 1rem;
+
+        &.login_btn {
+            border: 1px solid #000;
+        }
+
+        &:hover {
+            border: 1px solid #000;
+        }
     }
 
     @media only screen and (max-width: 1024px) {
@@ -51,11 +59,6 @@ export const navigationLinks = css `
 
 export const signup_btn = css`
     background-color: var(--color-yellow-200);
-    border: 1px solid transparent;
-
-    &:hover {
-        border: 1px solid #000;
-    }
 `;
 
 export const humberger_btn = css `
