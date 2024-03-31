@@ -66,11 +66,12 @@ export const searchJobContainer = css `
         height: 100%;
         font-size: 1.6rem;
 
-        &::focus {
+        &:focus {
             border: none;
+            outline: none;
         }
 
-        &::placeholder {
+        &:placeholder {
             font-size: 1.6rem;
         }
     }
