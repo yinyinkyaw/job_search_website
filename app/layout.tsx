@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { DM_Sans } from "next/font/google";
 import "./globals.css";
 import Navigation from "@/containers/navigation";
+import { KumaRegistry } from "@kuma-ui/next-plugin/registry"
 
 const inter = DM_Sans({ subsets: ["latin"] });
 
@@ -18,8 +19,11 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
+        <KumaRegistry>
           <Navigation />
           {children}
+        </KumaRegistry>
+          
       </body>
     </html>
   );

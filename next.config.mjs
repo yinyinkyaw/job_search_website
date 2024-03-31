@@ -1,4 +1,7 @@
+import { withKumaUI } from '@kuma-ui/next-plugin';
 /** @type {import('next').NextConfig} */
-const nextConfig = {};
+const nextConfig = {
+    reactStrictMode: true,
+};
 
-export default nextConfig;
+export default withKumaUI(nextConfig);

@@ -1,11 +1,15 @@
+'use client'
+
 import Image from 'next/image'
-import styles from './navigation.module.css'
+import * as styles from './navigation.styles'
 
 /** import icons */
 import Logo from '@/public/icons/job_hire_logo.svg'
 import Link from 'next/link'
+import { useState } from 'react'
 
 export default function Navigation() {
+  const [openMenu, setOpenMenu] = useState(false)
   return (
     <header>
       <div className={styles.navigaiton_container}>
@@ -20,10 +24,29 @@ export default function Navigation() {
           <li>Contact</li>
           <li>Pages</li>
           <div>
-            <Link className={styles.login_btn} href={'/login'}>Login</Link>
+            <Link href={'/login'}>Login</Link>
             <Link className={styles.signup_btn} href={'/register'}>Post a Job</Link>
           </div> 
         </nav>
+        <button onClick={() => setOpenMenu((prev) => !prev)} className={openMenu ? styles.toggle : styles.humberger_btn}>
+          <span />
+          <span />
+          <span />
+        </button>
+        {
+          openMenu && (
+            <div className={styles.mobileNavigation}>
+              <nav>
+                <li>Find Jobs</li>
+                <li>Employers</li>
+                <li>Pricing</li>
+                <li>Blog</li>
+                <li>Contact</li>
+                <li>Pages</li>
+              </nav>
+            </div>
+          )
+        }
       </div>
     </header>
   )
