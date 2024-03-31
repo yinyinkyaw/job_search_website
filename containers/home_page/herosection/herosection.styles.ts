@@ -1,7 +1,11 @@
 import { css } from "@kuma-ui/core";
 
 export const container = css `
-    padding: 2.4rem 0;
+    max-width: 1280px;
+    margin-inline: auto;
+    padding: 0 2rem;
+    width: 100%;
+    padding-top: 2.4rem;
     display: grid;
     grid-template-columns: repeat(12, 1fr);
     place-items: center; 
