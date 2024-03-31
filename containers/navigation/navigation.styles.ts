@@ -4,7 +4,7 @@ export const navigaiton_container = css `
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 2.5rem 1.25rem;
+    padding: 2.5rem 2rem;
     max-width: 1280px;
     margin-inline: auto;
     width: 100%;

@@ -1,9 +1,10 @@
-import Navigation from "@/containers/navigation";
+import MainLayout from "@/containers/MainLayout";
+import HeroSection from "@/containers/home_page/herosection";
 
 export default function Home() {
   return (
-    <>
-      home page
-    </>
+    <MainLayout>
+      <HeroSection />
+    </MainLayout>
   );
 }
