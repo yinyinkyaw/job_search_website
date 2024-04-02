@@ -29,10 +29,12 @@
         "./public"
       ],
       "@/containers": [
-        "./containers"
+        "./app/_containers"
+      ],
+      "@/constants": [
+        "./app/constants"
       ]
     },
-    "types": ["node", "@emotion/react/types/css-prop"], // for emotion css
   },
   "include": [
     "next-env.d.ts",

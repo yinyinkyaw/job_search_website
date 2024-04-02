@@ -10,6 +10,8 @@
   --color-emerald-500: rgb(16, 185, 129);
 
   --font-dm-san: "DM Sans", sans-serif;
+
+  --max-page-width: 1280px;
 }
 
 /*
@@ -73,4 +75,8 @@ header {
   margin-inline: auto;
   padding: 0 2rem;
   width: 100%;
+}
+
+button {
+  cursor: pointer;
 }

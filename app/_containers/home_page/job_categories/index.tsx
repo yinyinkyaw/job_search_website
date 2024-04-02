@@ -46,7 +46,9 @@ export default function JobCategories() {
                     </div>
                 </div>
             </div>
-            <button className={styles.seeMoreBtn}>Browse more Categories</button>
+            <div className={styles.flexCenter}>
+                <button className={styles.seeMoreBtn}>Browse more Categories</button>
+            </div>
         </div>
     </div>
   )

@@ -1,12 +1,14 @@
-import MainLayout from "@/containers/MainLayout";
-import HeroSection from "@/containers/home_page/herosection";
-import JobCategories from "@/containers/home_page/job_categories";
+import HeroSection from "@/app/_containers/home_page/herosection";
+import JobCategories from "@/app/_containers/home_page/job_categories";
+import JobSection from "@/app/_containers/home_page/jobsection";
 
 export default function Home() {
+
   return (
     <div>
       <HeroSection />
       <JobCategories />
+      <JobSection />
     </div>
   );
 }

@@ -6,9 +6,9 @@ export const container = css `
 `;
 
 export const content_container = css`
-    max-width: 1280px;
+    max-width: var(--max-page-width);
     margin-inline: auto;
-    padding: 3.5rem 2rem;
+    padding: 8rem 2rem;
     width: 100%;
 `;
 
@@ -83,14 +83,24 @@ export const category_card = css `
 `;
 
 export const seeMoreBtn = css `
-    padding: 1rem 1.5rem;
+    padding: 1rem 2.5rem;
     background-color: var(--color-yellow-200);
     border-radius: 3rem;
     border: 0;
     margin-top: 1.6rem;
-    position: relative;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
     cursor: pointer;
+    transition: all .5s ease;
+    font-size: 1.6rem;
+    font-weight: 500;
+    border: 1px solid transparent;
+
+    &:hover {
+        border: 1px solid #000;
+    }
+`;
+
+export const flexCenter = css `
+    display: flex;
+    justify-content: center;
+    margin: 2rem 0;
 `;

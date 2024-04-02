@@ -1,7 +1,7 @@
 import { css } from "@kuma-ui/core";
 
 export const container = css `
-    max-width: 1280px;
+    max-width: var(--max-page-width);
     margin-inline: auto;
     padding: 0 2rem;
     width: 100%;
@@ -115,6 +115,7 @@ export const popularSearch = css `
     margin: 1.6rem;
     font-size: 1.4rem;
     align-items: center;
+    flex-wrap: wrap;
 
     span {
         background-color: var(--color-offgreen-light);

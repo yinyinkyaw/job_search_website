@@ -1,0 +1,156 @@
+[
+    {
+        "id": 1,
+        "title": "Web Developer",
+        "company": "The Simpsons",
+        "category": "Contract",
+        "location": "San Francisco",
+        "salary": {
+            "start": 1500,
+            "end": 3600
+        },
+        "logo": "./images/football.png",
+        "isPopular": true
+    },
+    {
+        "id": 2,
+        "title": "Graphic Designer",
+        "company": "Acme Corporation",
+        "category": "Remote",
+        "location": "Herzegovina",
+        "salary": {
+            "start": 800,
+            "end": 2000
+        },
+        "logo": "./images/graphic_designer.png",
+        "isPopular": true
+    },
+    {
+        "id": 3,
+        "title": "UI/UX Designer",
+        "company": "Soylent Corp",
+        "category": "Contract",
+        "location": "Luxembourg",
+        "salary": {
+            "start": 1250,
+            "end": 3000
+        },
+        "logo": "./images/ui_ux_designer.png",
+        "isPopular": true
+    },
+    {
+        "id": 4,
+        "title": "Content Writer",
+        "company": "Umbrella Corporation",
+        "category": "Remote",
+        "location": "New York, NY",
+        "salary": {
+            "start": 3500,
+            "end": 4600
+        },
+        "logo": "./images/content_writer.png",
+        "isPopular": true
+    },
+    {
+        "id": 5,
+        "title": "Product Designer",
+        "category": "Remote",
+        "location": "Silicon Valley",
+        "salary": {
+            "start": 2000,
+            "end": 3600
+        },
+        "logo": "./images/product_designer.png",
+        "isPopular": true
+    },
+    {
+        "id": 6,
+        "title": "SEO Specialist",
+        "category": "Remote",
+        "location": "Bay Area",
+        "salary": {
+            "start": 3500,
+            "end": 4500
+        },
+        "logo": "./images/seo_specialist.png",
+        "isPopular": true
+    },
+    {
+        "id": 7,
+        "title": "Product Designer",
+        "company": "Massive Dynamic",
+        "category": "Remote",
+        "location": "Silion Valley",
+        "salary": {
+            "start": 2000,
+            "end": 3600
+        },
+        "logo": "./images/product_designer.png",
+        "isPopular": false
+    },
+    {
+        "id": 8,
+        "title": "SEO Specialist",
+        "company": "Capital Partners",
+        "category": "Remote",
+        "location": "Bay Area",
+        "salary": {
+            "start": 3500,
+            "end": 4500
+        },
+        "logo": "./images/seo_specialist.png",
+        "isPopular": false
+    },
+    {
+        "id": 9,
+        "title": "Web Developer",
+        "company": "The Simpsons",
+        "category": "Remote",
+        "location": "Bolivia",
+        "salary": {
+            "start": 1500,
+            "end": 3600
+        },
+        "logo": "./images/football.png",
+        "isPopular": false
+    },
+    {
+        "id": 10,
+        "title": "Product Designer",
+        "company": "Massive Dynamic",
+        "category": "Contract",
+        "location": "Silion Valley",
+        "salary": {
+            "start": 2000,
+            "end": 3600
+        },
+        "logo": "./images/product_designer.png",
+        "isPopular": false
+    },
+    {
+        "id": 11,
+        "title": "Graphic Designer",
+        "company": "Acme Corporation",
+        "category": "Contract",
+        "location": "Herzegovina",
+        "salary": {
+            "start": 800,
+            "end": 2000
+        },
+        "logo": "./images/graphic_designer.png",
+        "isPopular": false
+    },
+    {
+        "id": 12,
+        "title": "SEO Specialist",
+        "company": "Capital Partners",
+        "category": "Contract",
+        "location": "Bay Area",
+        "salary": {
+            "start": 3500,
+            "end": 4500
+        },
+        "logo": "./images/seo_specialist.png",
+        "isPopular": false
+    }
+]
