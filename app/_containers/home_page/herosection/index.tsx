@@ -33,7 +33,7 @@ export default function HeroSection() {
       </div>
       <div className={styles.imageContainer}>
         <Image alt="hero image" src={HeroImg} height={450} />
-        <Image alt="circle shape" src={CircleRadius} className='circle_shape' />
+        <Image alt="circle shape" src={CircleRadius} className='circle_shape' style={{ width: 'auto', height: 'auto'}} />
       </div>
     </div>
   )

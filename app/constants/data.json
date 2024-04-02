@@ -9,8 +9,12 @@
             "start": 1500,
             "end": 3600
         },
-        "logo": "./images/football.png",
-        "isPopular": true
+        "logo": "/images/football.png",
+        "isPopular": true,
+        "image": {
+            "width": 34,
+            "height": 34
+        }
     },
     {
         "id": 2,
@@ -22,8 +26,12 @@
             "start": 800,
             "end": 2000
         },
-        "logo": "./images/graphic_designer.png",
-        "isPopular": true
+        "logo": "/images/graphic_designer.png",
+        "isPopular": true,
+        "image": {
+            "width": 37,
+            "height": 33
+        }
     },
     {
         "id": 3,
@@ -35,8 +43,12 @@
             "start": 1250,
             "end": 3000
         },
-        "logo": "./images/ui_ux_designer.png",
-        "isPopular": true
+        "logo": "/images/ui_ux_designer.png",
+        "isPopular": true,
+        "image": {
+            "width": 36,
+            "height": 24
+        }
     },
     {
         "id": 4,
@@ -48,8 +60,12 @@
             "start": 3500,
             "end": 4600
         },
-        "logo": "./images/content_writer.png",
-        "isPopular": true
+        "logo": "/images/content_writer.png",
+        "isPopular": true,
+        "image": {
+            "width": 38,
+            "height": 38
+        }
     },
     {
         "id": 5,
@@ -60,8 +76,12 @@
             "start": 2000,
             "end": 3600
         },
-        "logo": "./images/product_designer.png",
-        "isPopular": true
+        "logo": "/images/product_designer.png",
+        "isPopular": true,
+        "image": {
+            "width": 37,
+            "height": 37
+        }
     },
     {
         "id": 6,
@@ -72,8 +92,12 @@
             "start": 3500,
             "end": 4500
         },
-        "logo": "./images/seo_specialist.png",
-        "isPopular": true
+        "logo": "/images/seo_specialist.png",
+        "isPopular": true,
+        "image": {
+            "width": 35,
+            "height": 32
+        }
     },
     {
         "id": 7,
@@ -85,8 +109,12 @@
             "start": 2000,
             "end": 3600
         },
-        "logo": "./images/product_designer.png",
-        "isPopular": false
+        "logo": "/images/product_designer.png",
+        "isPopular": false,
+        "image": {
+            "width": 37,
+            "height": 37
+        }
     },
     {
         "id": 8,
@@ -98,8 +126,12 @@
             "start": 3500,
             "end": 4500
         },
-        "logo": "./images/seo_specialist.png",
-        "isPopular": false
+        "logo": "/images/seo_specialist.png",
+        "isPopular": false,
+        "image": {
+            "width": 35,
+            "height": 32
+        }
     },
     {
         "id": 9,
@@ -111,8 +143,12 @@
             "start": 1500,
             "end": 3600
         },
-        "logo": "./images/football.png",
-        "isPopular": false
+        "logo": "/images/football.png",
+        "isPopular": false,
+        "image": {
+            "width": 34,
+            "height": 34
+        }
     },
     {
         "id": 10,
@@ -124,8 +160,12 @@
             "start": 2000,
             "end": 3600
         },
-        "logo": "./images/product_designer.png",
-        "isPopular": false
+        "logo": "/images/product_designer.png",
+        "isPopular": false,
+        "image": {
+            "width": 37,
+            "height": 37
+        }
     },
     {
         "id": 11,
@@ -137,8 +177,12 @@
             "start": 800,
             "end": 2000
         },
-        "logo": "./images/graphic_designer.png",
-        "isPopular": false
+        "logo": "/images/graphic_designer.png",
+        "isPopular": false,
+        "image": {
+            "width": 37,
+            "height": 33
+        }
     },
     {
         "id": 12,
@@ -150,7 +194,11 @@
             "start": 3500,
             "end": 4500
         },
-        "logo": "./images/seo_specialist.png",
-        "isPopular": false
+        "logo": "/images/seo_specialist.png",
+        "isPopular": false,
+        "image": {
+            "width": 35,
+            "height": 32
+        }
     }
 ]

@@ -3,9 +3,9 @@ import jobs from "@/app/constants/data.json"
 
 export async function GET(request: NextRequest) {
     
-    const params = request.nextUrl.searchParams;
+    const category = request.nextUrl.searchParams.get('category');
 
-    const category = params.get("category");
+    const result = category !== 'popular' ? jobs.filter((el) => el.category.toLocaleLowerCase() === category) : jobs.filter((el) => el.isPopular);
 
-    return NextResponse.json({message: "Success", data: jobs.filter((el) => el.category.toLocaleLowerCase() === category)}, {status: 200});
+    return NextResponse.json({message: "Success", data: result}, {status: 200});
 }
