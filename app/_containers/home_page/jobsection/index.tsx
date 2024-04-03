@@ -35,7 +35,7 @@ export default function JobSection() {
     }, [seletedCategory])
 
   return (
-    <div className={styles.container}>
+    <section className={styles.container}>
         <div className={styles.jobSectionHeader}>
             <h1>Recent Available Jobs</h1>
             <div className='category_list'>
@@ -54,6 +54,6 @@ export default function JobSection() {
         <div className={styles.flexCenter}>
           <button className={styles.seeMoreBtn}>Browse more Jobs</button>
         </div>
-    </div>
+    </section>
   )
 }

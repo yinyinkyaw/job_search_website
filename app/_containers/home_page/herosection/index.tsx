@@ -8,7 +8,7 @@ import CircleRadius from '@/public/icons/circle_shape.svg'
 
 export default function HeroSection() {
   return (
-    <div className={styles.container}>
+    <section className={styles.container}>
       <div className={styles.contentContainer}>
         <h1>When Searching for a job <wbr /> don't go in blind, Research first.</h1>
         <form>
@@ -35,6 +35,6 @@ export default function HeroSection() {
         <Image alt="hero image" src={HeroImg} height={450} />
         <Image alt="circle shape" src={CircleRadius} className='circle_shape' style={{ width: 'auto', height: 'auto'}} />
       </div>
-    </div>
+    </section>
   )
 }

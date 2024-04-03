@@ -10,7 +10,7 @@ import Image from 'next/image'
 
 export default function JobCategories() {
   return (
-    <div className={styles.container}>
+    <section className={styles.container}>
         <div className={styles.content_container}>
             <div className={styles.content_heading}>
                 <h3>Thousands of <wbr />dream jobs available now</h3>
@@ -50,6 +50,6 @@ export default function JobCategories() {
                 <button className={styles.seeMoreBtn}>Browse more Categories</button>
             </div>
         </div>
-    </div>
+    </section>
   )
 }
