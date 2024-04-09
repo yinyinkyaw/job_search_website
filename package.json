@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@datadog/browser-rum": "^5.15.0",
     "@kuma-ui/core": "^1.5.6",
     "next": "14.1.4",
     "react": "^18",

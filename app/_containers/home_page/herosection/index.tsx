@@ -10,7 +10,7 @@ export default function HeroSection() {
   return (
     <section className={styles.container}>
       <div className={styles.contentContainer}>
-        <h1>When Searching for a job <wbr /> don't go in blind, Research first.</h1>
+        <h1>When Searching for a job <wbr /> don&apos;t go in blind, Research first.</h1>
         <form>
           <div className={styles.searchJobContainer}>
             <div>
