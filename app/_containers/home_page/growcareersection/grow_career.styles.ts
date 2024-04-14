@@ -3,30 +3,23 @@ import { css } from "@kuma-ui/core";
 export const container = css `
     max-width: var(--max-page-width);
     margin: auto;
-    display: flex;
-    justify-content: space-between;
-    gap: 1rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
     align-items: center;
+    place-items: center;
+    padding: 0 0 10rem;
 
-    @media only screen and (max-width: 1280px) {
-        flex-direction: column;
-    }
-
-    img {
-        width: 60%;
-
-        @media only screen and (max-width: 1280px) {
-            width: 90%;
-        }
+    @media only screen and (max-width: 1024px) {
+        grid-template-columns: 1fr;
     }
 `;
 
 export const contentContainer = css `
-    width: 40%;
+    width: 100%;
 
-    @media only screen and (max-width: 1280px) {
-        width: calc(100% - 4rem);
-        margin: auto;
+    @media only screen and (max-width: 1024px) {
+        width: 50%;
     }
 `;
 
@@ -46,8 +39,8 @@ export const paragraph = css `
 
 export const cardContainer = css `
     display: flex;
-    gap: 2rem;
     flex-wrap: wrap;
+    gap: 1.5rem;
     max-width: 57.6rem;
     margin-top: 4rem;
 `;
@@ -55,12 +48,40 @@ export const cardContainer = css `
 export const careerCard = css `
     position: relative;
     background-color: var(--color-offgreen-light);
-    padding: 1.6rem 2rem;
+    padding: 1.6rem 1.5rem;
     border-radius: .8rem;
     text-align: center;
     font-weight: 700;
     font-size: 1.6rem;
+    white-space: pre-line;
 
+    @media only screen and (min-width: 1025px) {
+        &:first-child {
+            width: 40%;
+            padding: 1.6rem 4.5rem;
+        }
+
+        &:nth-of-type(2) {
+            width: 48%;
+            padding: 1.6rem 3rem;
+        }
+
+        &:nth-of-type(3) {
+            width: 50%;
+        }
+
+        &:last-child {
+            width: 45%;
+            padding: 1.6rem 3rem;
+        }
+    }
+
+
+
+    @media only screen and (max-width: 1024px) {
+        width: 100%;
+        text-align: left;
+    }
 
     & > span {
         --circle-size: 3rem;

@@ -79,7 +79,7 @@ export const humberger_btn = css `
         background-color: #000;
     }
 
-    @media only screen and (min-width: 1024px) {
+    @media only screen and (min-width: 1025px) {
         display: none;
     }
 `;

@@ -15,6 +15,7 @@
   --font-dm-san: "DM Sans", sans-serif;
 
   --max-page-width: 1280px;
+  --global-break-point: 1024px;
 }
 
 /*
