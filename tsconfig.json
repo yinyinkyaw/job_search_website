@@ -28,8 +28,8 @@
       "@/public": [
         "./public"
       ],
-      "@/containers": [
-        "./app/_containers"
+      "@/components": [
+        "./app/components"
       ],
       "@/constants": [
         "./app/constants"

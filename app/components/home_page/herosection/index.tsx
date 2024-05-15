@@ -4,7 +4,7 @@ import locationIcon from "@/public/icons/location.svg"
 import searchIcon from "@/public/icons/search.svg"
 import Image from 'next/image'
 import HeroImg from '@/public/images/heroman.jpg'
-import CircleRadius from '@/public/icons/circle_shape.svg'
+import circleRadius from '@/public/icons/circle_shape.svg'
 
 export default function HeroSection() {
   return (
@@ -33,7 +33,7 @@ export default function HeroSection() {
       </div>
       <div className={styles.imageContainer}>
         <Image alt="hero image" src={HeroImg} height={450} />
-        <Image alt="circle shape" src={CircleRadius} className='circle_shape' style={{ width: 'auto', height: 'auto'}} />
+        <Image alt="circle shape" src={circleRadius} className='circle_shape' style={{ width: 'auto', height: 'auto'}} />
       </div>
     </section>
   )

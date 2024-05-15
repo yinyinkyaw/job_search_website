@@ -7,6 +7,7 @@ import * as styles from './navigation.styles'
 import Logo from '@/public/icons/job_hire_logo.svg'
 import Link from 'next/link'
 import { useState } from 'react'
+import MobileNav from './MobileNav'
 
 export default function Navigation() {
   const [openMenu, setOpenMenu] = useState(false)
@@ -35,22 +36,7 @@ export default function Navigation() {
           </button>
       </div>
       {
-        openMenu && (
-          <div className={styles.mobileNavigation}>
-            <nav className={styles.navigationLinks}>
-              <li>Find Jobs</li>
-              <li>Employers</li>
-              <li>Pricing</li>
-              <li>Blog</li>
-              <li>Contact</li>
-              <li>Pages</li>
-            </nav>
-            <div>
-              <Link href={'/login'}>Login</Link>
-              <Link className={styles.signup_btn} href={'/register'}>Post a Job</Link>
-            </div>
-          </div>
-        )
+        openMenu && <MobileNav />
       }
     </header>
   )

@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { DM_Sans } from "next/font/google";
 import "./globals.css";
-import Navigation from "@/app/_containers/navigation";
+import Navigation from "@/app/components/navigation";
 import { KumaRegistry } from "@kuma-ui/next-plugin/registry"
 
 const inter = DM_Sans({ subsets: ["latin"] });
