@@ -8,9 +8,11 @@ import circleRadius from '@/public/icons/circle_shape.svg'
 
 export default function HeroSection() {
   return (
-    <section className={styles.container}>
-      <div className={styles.contentContainer}>
-        <h1>When Searching for a job <wbr /> don&apos;t go in blind, Research first.</h1>
+    <section className={styles.container} aria-labelledby='search-for-a-job'>
+      <article className={styles.contentContainer}>
+        <header>
+          <h1 id="search-for-a-job">When Searching for a job <wbr /> don&apos;t go in blind, Research first.</h1>
+        </header>
         <form>
           <div className={styles.searchJobContainer}>
             <div>
@@ -30,7 +32,7 @@ export default function HeroSection() {
           <span>Developer</span>
           <span>iOS</span>
         </div>
-      </div>
+      </article>
       <div className={styles.imageContainer}>
         <Image alt="hero image" src={HeroImg} height={450} />
         <Image alt="circle shape" src={circleRadius} className='circle_shape' style={{ width: 'auto', height: 'auto'}} />

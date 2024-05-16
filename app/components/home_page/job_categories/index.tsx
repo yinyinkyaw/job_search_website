@@ -10,12 +10,12 @@ import Image from 'next/image'
 
 export default function JobCategories() {
   return (
-    <section className={styles.container}>
-        <div className={styles.content_container}>
-            <div className={styles.content_heading}>
-                <h3>Thousands of <wbr />dream jobs available now</h3>
+    <section className={styles.container} aria-labelledby='thousands-of-dream-jobs'>
+        <article className={styles.content_container}>
+            <header className={styles.content_heading}>
+                <h3 id="thousands-of-dream-jobs">Thousands of <wbr />dream jobs available now</h3>
                 <span>Browse some featured jobs</span>
-            </div>
+            </header>
             <div className={styles.content_body}>
                 <div className={styles.category_card}>
                     <Image src={DesignIcon} alt="design_art" />
@@ -49,7 +49,7 @@ export default function JobCategories() {
             <div className={styles.flexCenter}>
                 <button className={styles.seeMoreBtn}>Browse more Categories</button>
             </div>
-        </div>
+        </article>
     </section>
   )
 }

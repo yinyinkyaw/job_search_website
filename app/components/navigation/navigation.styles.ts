@@ -1,5 +1,9 @@
 import { css } from "@kuma-ui/core";
 
+export const navigation_header = css`
+    border-bottom: 1px solid var(--color-offgreen-medium);
+`;
+
 export const navigaiton_container = css `
     display: flex;
     align-items: center;

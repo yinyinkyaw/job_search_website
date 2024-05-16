@@ -28,7 +28,7 @@ const OverviewSection = () => {
     }
   ]
   return (
-    <div className={styles.container}>
+    <section className={styles.container}>
       <div className={styles.cardContainer}>
         <div className={styles.overviewCardGrid}>
             {
@@ -44,7 +44,7 @@ const OverviewSection = () => {
             }
         </div>
       </div>
-    </div>
+    </section>
   )
 }
 

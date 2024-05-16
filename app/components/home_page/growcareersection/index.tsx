@@ -11,11 +11,13 @@ type Props = {}
 
 export default function GrowCareerSection({}: Props) {
   return (
-    <section className={styles.container}>
+    <section className={styles.container} aria-labelledby='grow-your-career'>
         <Image src={Illustrator} alt="grow-career" />
-        <div className={styles.contentContainer}>
-            <h3 className={styles.heading}>Grow your career</h3>
-            <p className={styles.paragraph}>When an unknown printer took a gallery of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged</p>
+        <article className={styles.contentContainer}>
+            <header>
+                <h3 className={styles.heading} id="grow-your-career">Grow your career</h3>
+                <p className={styles.paragraph}>When an unknown printer took a gallery of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged</p>
+            </header> 
             <div className={styles.cardContainer}>
                 <div className={styles.careerCard}>
                     <div>100% Verified Jobs</div>
@@ -42,7 +44,7 @@ export default function GrowCareerSection({}: Props) {
                     </span>
                 </div>
             </div>
-        </div>
+        </article>
         
     </section>
   )

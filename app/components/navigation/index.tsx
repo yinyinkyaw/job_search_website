@@ -12,7 +12,7 @@ import MobileNav from './MobileNav'
 export default function Navigation() {
   const [openMenu, setOpenMenu] = useState(false)
   return (
-    <header>
+    <header className={styles.navigation_header}>
       <div className={styles.navigaiton_container}>
         <Link href={'/'}>
           <Image src={Logo} alt="logo" />
