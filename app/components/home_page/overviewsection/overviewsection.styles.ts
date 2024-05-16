@@ -5,14 +5,14 @@ export const container = css`
     margin-inline: auto;
     width: 100%;
     padding: 0 2rem;
-    border: 1px solid #000;
-    border-radius: 1.6rem;
-    box-shadow: 0 25px 50px -12px rgba(0,0,0,.25);
 `;
 
 export const cardContainer = css`
     padding: 2.8rem 6.4rem;
     border-radius: 1.2rem;
+    border: 1px solid #000;
+    border-radius: 1.6rem;
+    box-shadow: 0 25px 50px -12px rgba(0,0,0,.25);
 `;
 
 export const overviewCardGrid = css`
