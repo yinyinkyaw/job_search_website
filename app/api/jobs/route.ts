@@ -1,5 +1,5 @@
 import { NextRequest, NextResponse } from "next/server"
-import jobs from "@/app/constants/data.json"
+import jobs from "@/app/constants/jobs.json"
 
 export async function GET(request: NextRequest) {
     

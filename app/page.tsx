@@ -4,6 +4,7 @@ import JobSection from "@/app/components/home_page/jobsection";
 import GrowCareerSection from "./components/home_page/growcareersection";
 import OverviewSection from "./components/home_page/overviewsection";
 import ClientReviewSection from "./components/home_page/clientreviewsection";
+import BlogSection from "./components/home_page/blogsection";
 
 export default function Home() {
 
@@ -15,6 +16,7 @@ export default function Home() {
       <GrowCareerSection />
       <OverviewSection />
       <ClientReviewSection />
+      <BlogSection />
     </main>
   );
 }
