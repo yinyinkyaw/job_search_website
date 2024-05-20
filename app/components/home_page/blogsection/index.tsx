@@ -1,4 +1,4 @@
-import { fetchBlogs, fetchJobs } from "@/app/actions";
+import { fetchBlogs, fetchJobs } from "@/actions";
 import * as styles from "./blogsection.styles";
 import Image from "next/image";
 import { randomUUID } from "crypto";

@@ -1,7 +1,7 @@
 "use client"
 
 import React, { useEffect, useState } from 'react'
-import { fetchJobs } from '@/app/actions'
+import { fetchJobs } from '@/actions'
 
 import * as styles from './jobsection.styles'
 import JobCard from './JobCard';
