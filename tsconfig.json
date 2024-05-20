@@ -21,10 +21,12 @@
         "name": "next"
       }
     ],
+    "baseUrl": "app",
     "paths": {
       "@/*": [
         "./*"
       ],
+      "@/app/*": ["./app/*"],
       "@/public": [
         "./public"
       ],

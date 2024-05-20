@@ -1,15 +1,15 @@
-import blogData from "@/app/constants/blogs.json";
+import blogData from "@/constants/blogs.json";
 import { NextApiRequest, NextApiResponse } from "next";
-import { NextResponse } from "next/server";
+import { NextRequest, NextResponse } from "next/server";
 
 type BlogResponse = {
     message: string;
     data: Blog[];
 }
-export async function GET(request: NextApiRequest, response: NextApiResponse<BlogResponse>) {
+export async function GET(request: NextRequest) {
     try {
-        return response.status(200).json({ message: "Retrieve data successfully!", data: blogData })
+        return NextResponse.json({ message: "Retrieve data successfully!", data: blogData });
     } catch(e) {
-        return response.status(500).json({ message: "Fail to load data", data: [] });
+        return NextResponse.json({ message: "Fail to load data", data: [] });
     } 
 }
